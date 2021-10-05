@@ -7,6 +7,7 @@ namespace DiscordBot_Project_01
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            
         }
     }
 }
