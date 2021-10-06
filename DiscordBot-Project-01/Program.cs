@@ -6,8 +6,8 @@ namespace DiscordBot_Project_01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            
+            var bot = new Bot();
+            bot.RunAsync().GetAwaiter().GetResult();
         }
     }
 }
