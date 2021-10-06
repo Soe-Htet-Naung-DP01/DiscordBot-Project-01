@@ -9,6 +9,7 @@ using DSharpPlus.CommandsNext;
 using DSharpPlus.Interactivity;
 using Newtonsoft.Json;
 using DiscordBot_Project_01.Commands;
+using Microsoft.Extensions.Logging;
 
 
 namespace DiscordBot_Project_01
@@ -17,7 +18,7 @@ namespace DiscordBot_Project_01
     {
         public DiscordClient Client { get; private set; } //Getting the access to bot discord account
         public CommandsNextExtension Commands { get; private set; } //
-        public async Task RunAsync() //To have results as the code runs in the background
+        public async Task RunAsync() //To have results as the code runs in the background and to respond multiple users
         {
 
             var json = string.Empty;
@@ -32,7 +33,7 @@ namespace DiscordBot_Project_01
                 Token = configJson.Token,
                 TokenType = TokenType.Bot,
                 AutoReconnect = true,
-                MinimumLogLevel = Microsoft.Extensions.Logging.LogLevel.Debug
+                MinimumLogLevel = LogLevel.Debug
                 
                 };
 
