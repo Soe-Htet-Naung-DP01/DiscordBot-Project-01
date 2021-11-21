@@ -10,6 +10,13 @@ namespace DiscordBot_Project_01.Commands
 {
     public class MainCommands : BaseCommandModule
     {
+        [Command("greet")]
+        [Description("Says the classic programming nerd line")]
+        public async Task Greet(CommandContext ctx)
+        {
+            await ctx.Channel.SendMessageAsync("Hello World!").ConfigureAwait(false);
+        }
+
         [Command("ping")]
         [Description("says 'Pong' back to you")]
         public async Task Ping(CommandContext ctx)
@@ -40,7 +47,7 @@ namespace DiscordBot_Project_01.Commands
         [Description("slap anyone you want, go wild")]
         public async Task Slap(CommandContext ctx, string memberName)
         {
-            await ctx.Channel.SendMessageAsync("Salp " + memberName).ConfigureAwait(false);
+            await ctx.Channel.SendMessageAsync("You  Slapped " + memberName + " so hard that their face comes off").ConfigureAwait(false);
         }
 
     }
