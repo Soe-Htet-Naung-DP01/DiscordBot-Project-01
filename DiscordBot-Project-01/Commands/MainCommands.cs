@@ -23,17 +23,17 @@ namespace DiscordBot_Project_01.Commands
         {
             await ctx.Channel.SendMessageAsync("Pong").ConfigureAwait(false);
         }
-        [Command("ching")]
+        [Command("stupid")]
         [Description("You know what I'm about to say back, right?...Right?..")]
         public async Task Ching(CommandContext ctx)
         {
             await ctx.Channel.SendMessageAsync("Chong").ConfigureAwait(false);
         }
-        [Command("ding")]
-        [Description("says 'Dong' back to you")]
+        [Command("Hello")]
+        [Description("Greets back to you")]
         public async Task Ding(CommandContext ctx)
         {
-            await ctx.Channel.SendMessageAsync("Dong").ConfigureAwait(false);
+            await ctx.Channel.SendMessageAsync("Hello there, Human. Nice to mmet  you! beep bop").ConfigureAwait(false);
         }
         [Command("add")]
         [Description("sum up two numbers")]
@@ -47,7 +47,7 @@ namespace DiscordBot_Project_01.Commands
         [Description("slap anyone you want, go wild")]
         public async Task Slap(CommandContext ctx, string memberName)
         {
-            await ctx.Channel.SendMessageAsync("You  Slapped " + memberName + " so hard that their face comes off").ConfigureAwait(false);
+            await ctx.Channel.SendMessageAsync("You  Slapped " + memberName + " so hard that their teeth came off").ConfigureAwait(false);
         }
 
     }
