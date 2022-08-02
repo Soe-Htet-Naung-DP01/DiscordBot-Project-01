@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v3.1": {
       "DiscordBot-Project-01/1.0.0": {
         "dependencies": {
-          "DSharpPlus": "4.2.0-nightly-01022",
-          "DSharpPlus.CommandsNext": "4.2.0-nightly-01022",
-          "DSharpPlus.Interactivity": "4.2.0-nightly-01022"
+          "DSharpPlus": "4.2.0-nightly-01094",
+          "DSharpPlus.CommandsNext": "4.2.0-nightly-01094",
+          "DSharpPlus.Interactivity": "4.2.0-nightly-01094"
         },
         "runtime": {
           "DiscordBot-Project-01.dll": {}
@@ -24,7 +24,7 @@
           }
         }
       },
-      "DSharpPlus/4.2.0-nightly-01022": {
+      "DSharpPlus/4.2.0-nightly-01094": {
         "dependencies": {
           "Emzi0767.Common": "2.6.2",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
@@ -38,32 +38,32 @@
         },
         "runtime": {
           "lib/netstandard2.0/DSharpPlus.dll": {
-            "assemblyVersion": "4.2.0.1022",
-            "fileVersion": "4.2.0.1022"
+            "assemblyVersion": "4.2.0.1094",
+            "fileVersion": "4.2.0.1094"
           }
         }
       },
-      "DSharpPlus.CommandsNext/4.2.0-nightly-01022": {
+      "DSharpPlus.CommandsNext/4.2.0-nightly-01094": {
         "dependencies": {
-          "DSharpPlus": "4.2.0-nightly-01022",
+          "DSharpPlus": "4.2.0-nightly-01094",
           "Microsoft.Extensions.DependencyInjection": "5.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/DSharpPlus.CommandsNext.dll": {
-            "assemblyVersion": "4.2.0.1022",
-            "fileVersion": "4.2.0.1022"
+            "assemblyVersion": "4.2.0.1094",
+            "fileVersion": "4.2.0.1094"
           }
         }
       },
-      "DSharpPlus.Interactivity/4.2.0-nightly-01022": {
+      "DSharpPlus.Interactivity/4.2.0-nightly-01094": {
         "dependencies": {
           "ConcurrentHashSet": "1.1.0",
-          "DSharpPlus": "4.2.0-nightly-01022"
+          "DSharpPlus": "4.2.0-nightly-01094"
         },
         "runtime": {
           "lib/netstandard2.0/DSharpPlus.Interactivity.dll": {
-            "assemblyVersion": "4.2.0.1022",
-            "fileVersion": "4.2.0.1022"
+            "assemblyVersion": "4.2.0.1094",
+            "fileVersion": "4.2.0.1094"
           }
         }
       },
@@ -742,26 +742,26 @@
       "path": "concurrenthashset/1.1.0",
       "hashPath": "concurrenthashset.1.1.0.nupkg.sha512"
     },
-    "DSharpPlus/4.2.0-nightly-01022": {
+    "DSharpPlus/4.2.0-nightly-01094": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y+uodsIvxSOwChN9VlqDGiHRFVmNbKDGcPf4mTcTYG1L+Ie3kIqaorsEbWlONzVvDZ3hxonb1erKKsH1zRkdpQ==",
-      "path": "dsharpplus/4.2.0-nightly-01022",
-      "hashPath": "dsharpplus.4.2.0-nightly-01022.nupkg.sha512"
+      "sha512": "sha512-ZT9fa9z+9oXmTWu39k3iXxkwnpO9Eeby3T7Aw5av7Yq1c+6rZnaTdhhJKL7MnGj0Cw42BLj83CrY48NF1PskZQ==",
+      "path": "dsharpplus/4.2.0-nightly-01094",
+      "hashPath": "dsharpplus.4.2.0-nightly-01094.nupkg.sha512"
     },
-    "DSharpPlus.CommandsNext/4.2.0-nightly-01022": {
+    "DSharpPlus.CommandsNext/4.2.0-nightly-01094": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ecM2mPD0RJXqjBCz19byuSHsl2tVOoqChNnu/1vWrTfHpfybir4PnG1QHmk5hQiQHYqPqtk9q8gVgJD9DloJmg==",
-      "path": "dsharpplus.commandsnext/4.2.0-nightly-01022",
-      "hashPath": "dsharpplus.commandsnext.4.2.0-nightly-01022.nupkg.sha512"
+      "sha512": "sha512-rT03dMTM9Df5ZuMiVrDM66WfPU8EiHJH4cLKGtaYOI5mhddJSk0xNRg6EjKAWE4pc1tXTDlJPNeTgVvkSAE3Bg==",
+      "path": "dsharpplus.commandsnext/4.2.0-nightly-01094",
+      "hashPath": "dsharpplus.commandsnext.4.2.0-nightly-01094.nupkg.sha512"
     },
-    "DSharpPlus.Interactivity/4.2.0-nightly-01022": {
+    "DSharpPlus.Interactivity/4.2.0-nightly-01094": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Qpq7LB5fDaz4kdKFbhm3FjshAfJozEVyWSFnLZx9FmGPrvE4Qx5HR5PVaaldSl+Ctje3VraiWyDUnMZEyk+lRw==",
-      "path": "dsharpplus.interactivity/4.2.0-nightly-01022",
-      "hashPath": "dsharpplus.interactivity.4.2.0-nightly-01022.nupkg.sha512"
+      "sha512": "sha512-To/9pfyaD8iPOOvCpv/WmB88ARx/DW+4GPOl/1KLMdmzLjf0I+8WGu8birbmQhsUPuUAyh6k2HvfbpGL4AcrTg==",
+      "path": "dsharpplus.interactivity/4.2.0-nightly-01094",
+      "hashPath": "dsharpplus.interactivity.4.2.0-nightly-01094.nupkg.sha512"
     },
     "Emzi0767.Common/2.6.2": {
       "type": "package",

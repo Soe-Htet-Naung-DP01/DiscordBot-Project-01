@@ -27,13 +27,13 @@ namespace DiscordBot_Project_01.Commands
         [Description("You know what I'm about to say back, right?...Right?..")]
         public async Task Ching(CommandContext ctx)
         {
-            await ctx.Channel.SendMessageAsync("Chong").ConfigureAwait(false);
+            await ctx.Channel.SendMessageAsync("No, You are.").ConfigureAwait(false);
         }
         [Command("Hello")]
         [Description("Greets back to you")]
         public async Task Ding(CommandContext ctx)
         {
-            await ctx.Channel.SendMessageAsync("Hello there, Human. Nice to mmet  you! beep bop").ConfigureAwait(false);
+            await ctx.Channel.SendMessageAsync("Hello there, Human. Nice to meet  you! beep bop").ConfigureAwait(false);
         }
         [Command("add")]
         [Description("sum up two numbers")]
