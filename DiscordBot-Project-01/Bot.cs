@@ -7,6 +7,7 @@ using DSharpPlus;
 using DSharpPlus.EventArgs;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.Interactivity;
+using DSharpPlus.Interactivity.Extensions;
 using Newtonsoft.Json;
 using DiscordBot_Project_01.Commands;
 using Microsoft.Extensions.Logging;
@@ -17,7 +18,9 @@ namespace DiscordBot_Project_01
     public class Bot
     {
         public DiscordClient Client { get; private set; } //Getting the access to bot discord account
-        public CommandsNextExtension Commands { get; private set; } //
+        public InteractivityExtension Interactivity { get; private set; } 
+        
+        public CommandsNextExtension Commands { get; private set; }
         public async Task RunAsync() //To have results as the code runs in the background and to respond multiple users
         {
 
@@ -41,6 +44,13 @@ namespace DiscordBot_Project_01
 
             Client.Ready += OnClientReady;
 
+            //interactivity config
+            Client.UseInteractivity(new InteractivityConfiguration
+            {
+                Timeout = TimeSpan.FromMinutes(2)
+            });
+
+            //cmds config
             var commandsConfig = new CommandsNextConfiguration
             {
                 StringPrefixes = new string[] { configJson.Prefix },
@@ -53,8 +63,9 @@ namespace DiscordBot_Project_01
             Commands = Client.UseCommandsNext(commandsConfig); //Command Handler
 
             Commands.RegisterCommands<MainCommands>();
+            Commands.RegisterCommands<GameCommands>();
 
-            await Client.ConnectAsync(); //Sync
+            await Client.ConnectAsync(); 
 
             await Task.Delay(-1); // 1sec Delay
         }

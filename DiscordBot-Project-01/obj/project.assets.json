@@ -11,7 +11,7 @@
           "lib/netstandard2.0/ConcurrentCollections.dll": {}
         }
       },
-      "DSharpPlus/4.2.0-nightly-01094": {
+      "DSharpPlus/4.3.0-nightly-01160": {
         "type": "package",
         "dependencies": {
           "Emzi0767.Common": "2.6.2",
@@ -31,10 +31,10 @@
           "lib/netstandard2.0/DSharpPlus.dll": {}
         }
       },
-      "DSharpPlus.CommandsNext/4.2.0-nightly-01094": {
+      "DSharpPlus.CommandsNext/4.3.0-nightly-01160": {
         "type": "package",
         "dependencies": {
-          "DSharpPlus": "4.2.0-nightly-01094",
+          "DSharpPlus": "4.3.0-nightly-01160",
           "Microsoft.Extensions.DependencyInjection": "5.0.1"
         },
         "compile": {
@@ -44,11 +44,11 @@
           "lib/netstandard2.0/DSharpPlus.CommandsNext.dll": {}
         }
       },
-      "DSharpPlus.Interactivity/4.2.0-nightly-01094": {
+      "DSharpPlus.Interactivity/4.3.0-nightly-01160": {
         "type": "package",
         "dependencies": {
           "ConcurrentHashSet": "1.1.0",
-          "DSharpPlus": "4.2.0-nightly-01094"
+          "DSharpPlus": "4.3.0-nightly-01160"
         },
         "compile": {
           "lib/netstandard2.0/DSharpPlus.Interactivity.dll": {}
@@ -1260,42 +1260,42 @@
         "lib/netstandard2.0/ConcurrentCollections.xml"
       ]
     },
-    "DSharpPlus/4.2.0-nightly-01094": {
-      "sha512": "ZT9fa9z+9oXmTWu39k3iXxkwnpO9Eeby3T7Aw5av7Yq1c+6rZnaTdhhJKL7MnGj0Cw42BLj83CrY48NF1PskZQ==",
+    "DSharpPlus/4.3.0-nightly-01160": {
+      "sha512": "N8ZhgiYpUJiIa+rb5IgXRgFh8ugme4JuEFlB3vM5z4sxFFiItqbKLaEUBNyExQHO9FtXByhu7M9HqRL7xO+UAg==",
       "type": "package",
-      "path": "dsharpplus/4.2.0-nightly-01094",
+      "path": "dsharpplus/4.3.0-nightly-01160",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dsharpplus.4.2.0-nightly-01094.nupkg.sha512",
+        "dsharpplus.4.3.0-nightly-01160.nupkg.sha512",
         "dsharpplus.nuspec",
         "dsharpplus.png",
         "lib/netstandard2.0/DSharpPlus.dll",
         "lib/netstandard2.0/DSharpPlus.xml"
       ]
     },
-    "DSharpPlus.CommandsNext/4.2.0-nightly-01094": {
-      "sha512": "rT03dMTM9Df5ZuMiVrDM66WfPU8EiHJH4cLKGtaYOI5mhddJSk0xNRg6EjKAWE4pc1tXTDlJPNeTgVvkSAE3Bg==",
+    "DSharpPlus.CommandsNext/4.3.0-nightly-01160": {
+      "sha512": "2p8R003/0SitjpSkImHLbLiinPiVhuWJOWXS/OUIzSus82OCOJLWLvnzCGPuouXf4Avt5V4YMXNfBlJU+oAL5A==",
       "type": "package",
-      "path": "dsharpplus.commandsnext/4.2.0-nightly-01094",
+      "path": "dsharpplus.commandsnext/4.3.0-nightly-01160",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dsharpplus.commandsnext.4.2.0-nightly-01094.nupkg.sha512",
+        "dsharpplus.commandsnext.4.3.0-nightly-01160.nupkg.sha512",
         "dsharpplus.commandsnext.nuspec",
         "dsharpplus.png",
         "lib/netstandard2.0/DSharpPlus.CommandsNext.dll",
         "lib/netstandard2.0/DSharpPlus.CommandsNext.xml"
       ]
     },
-    "DSharpPlus.Interactivity/4.2.0-nightly-01094": {
-      "sha512": "To/9pfyaD8iPOOvCpv/WmB88ARx/DW+4GPOl/1KLMdmzLjf0I+8WGu8birbmQhsUPuUAyh6k2HvfbpGL4AcrTg==",
+    "DSharpPlus.Interactivity/4.3.0-nightly-01160": {
+      "sha512": "v1KpQ5hyijXsW+OZPyTvUfIMkE6UGxfVvp3BB/yamYUDC957vk60N6FtiRquDN1f3jbO4VtprhhxD91D5u1hvg==",
       "type": "package",
-      "path": "dsharpplus.interactivity/4.2.0-nightly-01094",
+      "path": "dsharpplus.interactivity/4.3.0-nightly-01160",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dsharpplus.interactivity.4.2.0-nightly-01094.nupkg.sha512",
+        "dsharpplus.interactivity.4.3.0-nightly-01160.nupkg.sha512",
         "dsharpplus.interactivity.nuspec",
         "dsharpplus.png",
         "lib/netstandard2.0/DSharpPlus.Interactivity.dll",
@@ -4289,9 +4289,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DSharpPlus >= 4.2.0-nightly-01022",
-      "DSharpPlus.CommandsNext >= 4.2.0-nightly-01022",
-      "DSharpPlus.Interactivity >= 4.2.0-nightly-01022"
+      "DSharpPlus >= 4.3.0-nightly-01160",
+      "DSharpPlus.CommandsNext >= 4.3.0-nightly-01160",
+      "DSharpPlus.Interactivity >= 4.3.0-nightly-01160"
     ]
   },
   "packageFolders": {
@@ -4340,15 +4340,15 @@
         "dependencies": {
           "DSharpPlus": {
             "target": "Package",
-            "version": "[4.2.0-nightly-01022, )"
+            "version": "[4.3.0-nightly-01160, )"
           },
           "DSharpPlus.CommandsNext": {
             "target": "Package",
-            "version": "[4.2.0-nightly-01022, )"
+            "version": "[4.3.0-nightly-01160, )"
           },
           "DSharpPlus.Interactivity": {
             "target": "Package",
-            "version": "[4.2.0-nightly-01022, )"
+            "version": "[4.3.0-nightly-01160, )"
           }
         },
         "imports": [
@@ -4369,37 +4369,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "DiscordBot-Project-01 depends on DSharpPlus (>= 4.2.0-nightly-01022) but DSharpPlus 4.2.0-nightly-01022 was not found. An approximate best match of DSharpPlus 4.2.0-nightly-01094 was resolved.",
-      "libraryId": "DSharpPlus",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "DiscordBot-Project-01 depends on DSharpPlus.CommandsNext (>= 4.2.0-nightly-01022) but DSharpPlus.CommandsNext 4.2.0-nightly-01022 was not found. An approximate best match of DSharpPlus.CommandsNext 4.2.0-nightly-01094 was resolved.",
-      "libraryId": "DSharpPlus.CommandsNext",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "DiscordBot-Project-01 depends on DSharpPlus.Interactivity (>= 4.2.0-nightly-01022) but DSharpPlus.Interactivity 4.2.0-nightly-01022 was not found. An approximate best match of DSharpPlus.Interactivity 4.2.0-nightly-01094 was resolved.",
-      "libraryId": "DSharpPlus.Interactivity",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tfSp0hCpl/n4DbnJpRILAvF2HmNhhadxPHjZHRLkVjTPWX8bT0ivEY9CEjCBTLMRm68riDDlRjSX+ItKPebD1g==",
+  "dgSpecHash": "+MgMn7tzo0TomC/ARwBhImV40gApDSCfD+irYEySna3W2r+7A5l1o+TRLeFlDdul86XkQf0TJmexRBpH7n+Puw==",
   "success": true,
   "projectFilePath": "D:\\CodingProjects\\DiscordBot\\DiscordBot-Project-01\\DiscordBot-Project-01\\DiscordBot-Project-01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aquap\\.nuget\\packages\\concurrenthashset\\1.1.0\\concurrenthashset.1.1.0.nupkg.sha512",
-    "C:\\Users\\aquap\\.nuget\\packages\\dsharpplus\\4.2.0-nightly-01094\\dsharpplus.4.2.0-nightly-01094.nupkg.sha512",
-    "C:\\Users\\aquap\\.nuget\\packages\\dsharpplus.commandsnext\\4.2.0-nightly-01094\\dsharpplus.commandsnext.4.2.0-nightly-01094.nupkg.sha512",
-    "C:\\Users\\aquap\\.nuget\\packages\\dsharpplus.interactivity\\4.2.0-nightly-01094\\dsharpplus.interactivity.4.2.0-nightly-01094.nupkg.sha512",
+    "C:\\Users\\aquap\\.nuget\\packages\\dsharpplus\\4.3.0-nightly-01160\\dsharpplus.4.3.0-nightly-01160.nupkg.sha512",
+    "C:\\Users\\aquap\\.nuget\\packages\\dsharpplus.commandsnext\\4.3.0-nightly-01160\\dsharpplus.commandsnext.4.3.0-nightly-01160.nupkg.sha512",
+    "C:\\Users\\aquap\\.nuget\\packages\\dsharpplus.interactivity\\4.3.0-nightly-01160\\dsharpplus.interactivity.4.3.0-nightly-01160.nupkg.sha512",
     "C:\\Users\\aquap\\.nuget\\packages\\emzi0767.common\\2.6.2\\emzi0767.common.2.6.2.nupkg.sha512",
     "C:\\Users\\aquap\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\aquap\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
@@ -84,36 +84,5 @@
     "C:\\Users\\aquap\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\aquap\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "DiscordBot-Project-01 depends on DSharpPlus (>= 4.2.0-nightly-01022) but DSharpPlus 4.2.0-nightly-01022 was not found. An approximate best match of DSharpPlus 4.2.0-nightly-01094 was resolved.",
-      "libraryId": "DSharpPlus",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "DiscordBot-Project-01 depends on DSharpPlus.CommandsNext (>= 4.2.0-nightly-01022) but DSharpPlus.CommandsNext 4.2.0-nightly-01022 was not found. An approximate best match of DSharpPlus.CommandsNext 4.2.0-nightly-01094 was resolved.",
-      "libraryId": "DSharpPlus.CommandsNext",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "DiscordBot-Project-01 depends on DSharpPlus.Interactivity (>= 4.2.0-nightly-01022) but DSharpPlus.Interactivity 4.2.0-nightly-01022 was not found. An approximate best match of DSharpPlus.Interactivity 4.2.0-nightly-01094 was resolved.",
-      "libraryId": "DSharpPlus.Interactivity",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
